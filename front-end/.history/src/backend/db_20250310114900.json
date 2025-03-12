@@ -1,0 +1,25 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Mouse sem fio Recaregável",
+            "image": "https://via.placeholder.com/150",
+            "description": "O novo mouse sem fio, recarregável, com design luminoso e sofisticado, conta com clique silencioso, design anatômico, confortável e bateria interna recarregável via cabo USB.",
+            "price": 29.90
+        },
+        {
+            "id": 2,
+            "name": "Samsung Smart Tv 50 Polegada",
+            "image": "https://via.placeholder.com/150",
+            "description": "Processador exclusivo da Samsung, que proporciona a melhor experiência de visualização ao realizar o upscaling de qualquer conteúdo para resolução próxima a 4K conforme a cena.",
+            "price": 2999.90
+        },
+        {
+            "id": 3,
+            "name": "Fone de ouvido sem fio JBL",
+            "image": "https://via.placeholder.com/150",
+            "description": "Sensibilidade do driver em 1kHz 1mW (dB): 102 dB SPL @ 1kHz 1mW, 20Hz – 20kHz, 32 Ohm, 5.8mm driver, 3.7V/85mAh, 1-2h de tempo de carregamento, 16h de reprodução (4h no fone + 12h no estojo).",
+            "price": 219
+        }
+    ]
+}
