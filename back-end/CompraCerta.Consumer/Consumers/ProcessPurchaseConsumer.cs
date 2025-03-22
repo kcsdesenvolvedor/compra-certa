@@ -24,14 +24,14 @@ public class ProcessPurchaseConsumer : IConsumer<PurchaseMessage>
         var purchase = await _context.Purchases.FindAsync(context.Message.PurchaseId);
         if (purchase == null) return;
 
-        await Task.Delay(10000); // Simula 10 segundos de compra pendente
+        await Task.Delay(5000); // Simula 5 segundos de compra pendente
 
         // Simular processamento do pagamento
         purchase.Status = "Processando";
         await _context.SaveChangesAsync();
         await NotifyPurchaseStatusInAPI(purchase);
 
-        await Task.Delay(15000); // Simula 15 segundos de processamento
+        await Task.Delay(5000); // Simula 5 segundos de processamento
 
         // Atualizar o status para "Aprovada"
         purchase.Status = "Aprovada";
