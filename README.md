@@ -146,3 +146,9 @@ Passos para Execução
    npm install
    npm run dev
 
+---
+
+## Vídeo demostrativo
+
+![2025-03-22 17-42-32 (online-video-cutter com)](https://github.com/user-attachments/assets/fa280d59-db05-45b7-8009-b0abc70fd529)
+
