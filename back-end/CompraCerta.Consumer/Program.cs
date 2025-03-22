@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 
 var builder = Host.CreateApplicationBuilder(args);
 
-var connectionString = "Server=localhost,1433;Database=CompraCerta;User Id=sa;Password=Kel@bru1;TrustServerCertificate=True;";
+var connectionString = "Server=localhost,1433;Database=CompraCerta;User Id=sa;Password=123456789;TrustServerCertificate=True;";
 
 // Configurar o banco de dados
 builder.Services.AddDbContext<AppDbContext>(options =>
